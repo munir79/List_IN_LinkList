@@ -10,10 +10,17 @@ for(int val: newList){
     cout<<val <<" ";
 }
 cout<<endl;
-//1.pushBack
+//1.pushBack and pushfront
 myList.push_front(100);
 for(int val : myList){
     cout<<val<<" ";
 }
 
+cout<<endl;
+
+//2 pop_back and pop_front
+myList.pop_front();
+for(int val :myList){
+    cout<<val<<" ";
+}
 }
